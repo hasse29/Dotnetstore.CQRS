@@ -1,5 +1,12 @@
 # Dotnetstore.CQRS
 
+[![CI](https://github.com/hasse29/Dotnetstore.CQRS/actions/workflows/ci.yml/badge.svg)](https://github.com/hasse29/Dotnetstore.CQRS/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Dotnetstore.CQRS.svg?logo=nuget)](https://www.nuget.org/packages/Dotnetstore.CQRS)
+[![NuGet downloads](https://img.shields.io/nuget/dt/Dotnetstore.CQRS.svg?logo=nuget)](https://www.nuget.org/packages/Dotnetstore.CQRS)
+[![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![License: MIT](https://img.shields.io/github/license/hasse29/Dotnetstore.CQRS.svg)](https://github.com/hasse29/Dotnetstore.CQRS/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/hasse29/Dotnetstore.CQRS.svg?style=social)](https://github.com/hasse29/Dotnetstore.CQRS/stargazers)
+
 A small, dependency-light CQRS library for .NET 10: commands, queries, notifications, streaming requests and a
 pipeline for cross-cutting concerns. It is a free, MIT-licensed alternative to MediatR with a deliberately similar API,
 so moving existing code over is mostly a namespace change.
