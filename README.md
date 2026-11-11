@@ -3,7 +3,7 @@
 [![CI](https://github.com/hasse29/Dotnetstore.CQRS/actions/workflows/ci.yml/badge.svg)](https://github.com/hasse29/Dotnetstore.CQRS/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Dotnetstore.CQRS.svg?logo=nuget)](https://www.nuget.org/packages/Dotnetstore.CQRS)
 [![NuGet downloads](https://img.shields.io/nuget/dt/Dotnetstore.CQRS.svg?logo=nuget)](https://www.nuget.org/packages/Dotnetstore.CQRS)
-[![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![.NET 10 | 11](https://img.shields.io/badge/.NET-10.0%20%7C%2011.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![License: MIT](https://img.shields.io/github/license/hasse29/Dotnetstore.CQRS.svg)](https://github.com/hasse29/Dotnetstore.CQRS/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/hasse29/Dotnetstore.CQRS.svg?style=social)](https://github.com/hasse29/Dotnetstore.CQRS/stargazers)
 
@@ -53,7 +53,7 @@ licence key. Handlers are discovered once at startup by scanning the assemblies 
 
 ## Installation
 
-The library targets `net10.0`. Reference the project directly, or pack it and add the resulting package to your feed:
+The library targets `net10.0` and `net11.0`. Reference the project directly, or pack it and add the resulting package to your feed:
 
 ```bash
 dotnet pack src/Dotnetstore.CQRS -c Release -o ./nupkg
@@ -489,7 +489,7 @@ tests/Dotnetstore.CQRS.Tests/
   Extensions/     Tests for registration and options
   Internal/       Tests for the dispatcher and pipeline
   Fixtures/       Shared request, handler and behavior test types
-Directory.Build.props      Shared build settings (net10.0, nullable, warnings as errors)
+Directory.Build.props      Shared build settings (net10.0 + net11.0, nullable, warnings as errors)
 Directory.Packages.props   Central package versions
 ```
 
