@@ -47,9 +47,7 @@ jobs:
         run: dotnet build Dotnetstore.CQRS.slnx -c Release --no-restore -p:Version=${{ steps.version.outputs.version }}
 
       - name: Test
-        run: |
-          dotnet run --project tests/Dotnetstore.CQRS.Tests -c Release --no-build -f net10.0
-          dotnet run --project tests/Dotnetstore.CQRS.Tests -c Release --no-build -f net11.0
+        run: dotnet test --solution Dotnetstore.CQRS.slnx -c Release --no-build
 
       - name: Pack
         run: dotnet pack src/Dotnetstore.CQRS -c Release --no-build -p:Version=${{ steps.version.outputs.version }} -o ./nupkg
